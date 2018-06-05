@@ -44,7 +44,7 @@ function prompter() {
         .prompt([{
                 name: "id",
                 type: "input",
-                message: "Please enter ID(number) of product you would like to purchase:"
+                message: "Please enter ID# of product you would like to purchase:"
             },
             {
                 name: "quantity",
@@ -68,17 +68,19 @@ function checkQTY(qty, id) {
 
     connection.query("SELECT * FROM products WHERE stock_quantity = 0 ORDER BY department_name;", function (err, results) {
         if (err) throw err;
+        let qtyYes = false;
         for (let i = 0; i < results.length; i++) {
-            if (id == results[i].item_id) {
-                let a = results[i].item_id;
-                console.log("**+**We are out-of-stock today, sorry try again.**+**");
+            if (id == results[i].item_id) {  
+                qtyYes = true;
+                console.log("*********We are out-of-stock today, sorry try again in a few days!.*********");
                 prompter();
                 break;
-            } 
-                else {
-                updateTable();
-            }
+            }  
         }
+        if(qtyYes === false) {
+            updateTable();
+        }
+        
     });
 }
     function updateTable() {
