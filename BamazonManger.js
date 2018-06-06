@@ -1,3 +1,4 @@
+/*I added in the quantity even though I could remove because I wanted to see if it worked.*/
 const mysql = require("mysql");
 const inquirer = require('inquirer');
 
@@ -23,7 +24,7 @@ function start() {
         for (let i = 0; i < results.length; i++) {
             console.log("_________________________________________________________________________________________");
             console.log("ID#:", results[i].item_id, "\n", "\tproduct name:", results[i].product_name, "\t", "price:",
-             results[i].price, "\t", "quantity:", results[i].stock_quantity);
+                results[i].price, "\t", "quantity:", results[i].stock_quantity);
         }
         console.log("");
         console.log("*********************************************************************************************");
@@ -91,11 +92,10 @@ function qtyMath(qty, id) {
                 updateTable(qtyLeft, id, total);
             }
         });
-    }
+}
 //updateTable takes in the values from qtyMath and updates table
 function updateTable(qty, id, total) {
     total = total.toFixed(2);
-    console.log("Updating, one moment please!...\n");
     var query = connection.query(
         "UPDATE products SET ? WHERE ?", [{
                 stock_quantity: qty
@@ -106,6 +106,7 @@ function updateTable(qty, id, total) {
         ],
         //prints out total sale then after 5 seconds starts back Bamazon.
         function (err, res) {
+            console.log("Updating, one moment please!...\n");
             console.log("***$", total, "Total Sale***");
             setTimeout(start, 5000);
         }
