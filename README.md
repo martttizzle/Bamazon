@@ -1,3 +1,66 @@
+ # Bamazon
+ ## Synopsis
+I have created a project in which a user can use node.js to edit and mysql tables. The projects has two type of operators. The first is a customer purchase screen, who can purchase items available. The second is a manager view. Each have unique abilities and both affect the same mysql tables. 
+
+
+## Motivation
+I wanted to show my knowledge of using node.js to edit mysql in real-time. I wanted to also showcase my skills of working in the back-end of web development. 
+
+
+# Code walk-through
+ 
+
+ 
+
+Contributors
+Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+
+License
+A short snippet describing the license (MIT, Apache, etc.)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 # Bamazon
 Amazon-like storefront with MySQL skills
 Node.js & MySQL
