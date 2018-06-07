@@ -6,9 +6,40 @@ I have created a project in which a user can use node.js to edit and mysql table
 ## Motivation
 I wanted to show my knowledge of using node.js to edit mysql in real-time. I wanted to also showcase my skills of working in the back-end of web development. 
 
+## Code walk-through
+I will break down both customer and manager of Bamazon. I will use screenshots to walk-through the steps. 
+### Database
+ This is the database in mysql that I used to create a table to be used for the customer. I made a primary key as the id for specific items 
 
-# Code walk-through
+![custeromsqlpage](https://user-images.githubusercontent.com/21042727/41106304-6589f316-6a35-11e8-9767-263aaaae4370.PNG)
+
+### Items Available
+ This screen shows all the items that a customer can purchase. 
+![beginning page](https://user-images.githubusercontent.com/21042727/41106323-7299236a-6a35-11e8-9536-8c9f304a1131.PNG)
+
+ Then the customer will be prompted to make a selection by ID number. Note the quantity of basketballs are at 75.
+![promptitempurchase](https://user-images.githubusercontent.com/21042727/41106325-73c6a168-6a35-11e8-881c-050c22034d62.PNG)
+ The customer will choose to purchase a basketball in this example. I have added in a protection incase number was entered incorrectly and also(not shown) If the user exceeds the quan
+ ![purchasemade](https://user-images.githubusercontent.com/21042727/41106327-750e7fbe-6a35-11e8-9c59-ed281643e786.PNG)
  
+![afterpurchasetable](https://user-images.githubusercontent.com/21042727/41106317-6fe954fa-6a35-11e8-9081-2e79db540b00.PNG)
+ Now, the prev
+
+
+
+manager 
+![adding new menu](https://user-images.githubusercontent.com/21042727/41106367-8790ea5a-6a35-11e8-8cd4-7be93c5c6db4.PNG)
+
+
+![addquantity](https://user-images.githubusercontent.com/21042727/41106385-8f930dd2-6a35-11e8-86ba-d883d90faa5a.PNG)
+![addquantity2](https://user-images.githubusercontent.com/21042727/41106391-9174bf2e-6a35-11e8-98bc-e2aae21aa323.PNG)
+![addquantityresults](https://user-images.githubusercontent.com/21042727/41106393-92ecd896-6a35-11e8-8471-fefaae678079.PNG)
+![bamazonmanagermenu](https://user-images.githubusercontent.com/21042727/41106396-9423df02-6a35-11e8-942f-cc524c9cb6e7.PNG)
+![managerbamazonsqlpage](https://user-images.githubusercontent.com/21042727/41106401-954b6800-6a35-11e8-97fe-e18cb3f9df0a.PNG)
+![newproductadded](https://user-images.githubusercontent.com/21042727/41106406-965a57a6-6a35-11e8-919e-e0009764be40.PNG)
+![viewlowquantity](https://user-images.githubusercontent.com/21042727/41106408-9725ca08-6a35-11e8-859d-58b248a62c76.PNG)
+![viewproductschoice](https://user-images.githubusercontent.com/21042727/41106414-98036f20-6a35-11e8-8b58-0216824bcc7e.PNG)
+
 
  
 
