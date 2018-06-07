@@ -1,12 +1,12 @@
- # Bamazon
+ # Bamazon 
  ## Synopsis
-I have created a project in which a user can use node.js to edit and mysql tables. The projects has two type of operators. The first is a customer purchase screen, who can purchase items available. The second is a manager view. Each have unique abilities and both affect the same mysql tables. 
+I have created a project in which a user can use node.js to edit and update mysql tables directly. The projects has two types of operators. The first is a customer purchase options, who can purchase items available. The second is a manager view, which can alter items.
 
 ## Motivation
 I wanted to show my knowledge of using node.js to edit mysql in real-time. I wanted to also showcase my skills of working in the back-end of web development. 
 
 # Code walk-through for Customer
-I will break down both customer and manager of Bamazon. I will use screenshots to walk-through the steps. 
+I will break down both customer and manager modes of Bamazon. I will use screenshots to walk-through the steps. 
 
 ### Database
  This is the database in mysql that I used to create a table to be used for the customer. I made a primary key as the id for specific items 
