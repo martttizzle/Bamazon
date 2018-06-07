@@ -5,7 +5,7 @@ I have created a project in which a user can use node.js to edit and mysql table
 ## Motivation
 I wanted to show my knowledge of using node.js to edit mysql in real-time. I wanted to also showcase my skills of working in the back-end of web development. 
 
-# Code walk-through of Customer
+# Code walk-through for Customer
 I will break down both customer and manager of Bamazon. I will use screenshots to walk-through the steps. 
 
 ### Database
@@ -36,7 +36,7 @@ I will break down both customer and manager of Bamazon. I will use screenshots t
 ![afterpurchasetable](https://user-images.githubusercontent.com/21042727/41106317-6fe954fa-6a35-11e8-9081-2e79db540b00.PNG)
 
 
-# Code walk-through of Manager
+# Code walk-through for Manager
 This is the walk-through of the Bamazon Manager mode.
 
 ### Database
