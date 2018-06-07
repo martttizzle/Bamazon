@@ -18,10 +18,14 @@ I will break down both customer and manager of Bamazon. I will use screenshots t
 ![beginning page](https://user-images.githubusercontent.com/21042727/41106323-7299236a-6a35-11e8-9536-8c9f304a1131.PNG)
 
  Then the customer will be prompted to make a selection by ID number. Note the quantity of basketballs are at 75.
-![promptitempurchase](https://user-images.githubusercontent.com/21042727/41106325-73c6a168-6a35-11e8-881c-050c22034d62.PNG)
- The customer will choose to purchase a basketball in this example. I have added in a protection incase number was entered incorrectly and also(not shown) If the user exceeds the quan
- ![purchasemade](https://user-images.githubusercontent.com/21042727/41106327-750e7fbe-6a35-11e8-9c59-ed281643e786.PNG)
  
+![promptitempurchase](https://user-images.githubusercontent.com/21042727/41106325-73c6a168-6a35-11e8-881c-050c22034d62.PNG)
+
+ The customer will choose to purchase a basketball in this example. I have added in a protection incase number was entered incorrectly and also(shownbelow.) If the user exceeds the quantity it will let them know not purchase and restart again. 
+ ![exceededquant](https://user-images.githubusercontent.com/21042727/41107784-a75528da-6a38-11e8-887b-c21cda2c6261.PNG)
+ The image shows if you also enter a character instead of a number and will prompt you to re-enter. Then the customer processs to continue with the purchase of basketballs. It will message the user that it is updating. Once that is complete the user will see a toatl bill of sale and then after 5 seconds the item start page is displayed for another purchase. 
+ ![purchasemade](https://user-images.githubusercontent.com/21042727/41106327-750e7fbe-6a35-11e8-9c59-ed281643e786.PNG)
+ This image shows that he quantity of basketballs is now at 72 instead of the 75 before purchase. 
 ![afterpurchasetable](https://user-images.githubusercontent.com/21042727/41106317-6fe954fa-6a35-11e8-9081-2e79db540b00.PNG)
  Now, the prev
 
